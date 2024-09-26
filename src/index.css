@@ -1,0 +1,18 @@
+.cart-count {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Offset the badge to the center */
+    color: white; /* Badge text color */
+    border-radius: 50%; /* Make it round */
+    padding: 4px 8px; /* Padding inside the badge */
+    font-size: 29px; /* Font size for the count */
+    min-width: 20px; /* Ensure it has a minimum width */
+    text-align: center; /* Center text inside the badge */
+}
+
+
+.cart-item-container {
+    position: relative;
+    display: inline-block;
+}
